@@ -35,6 +35,14 @@ export function History() {
   );
 }
 
+export function PressRelease() {
+  return (
+    <div>
+      <h1>Press Release</h1>
+    </div>
+  );
+}
+
 export function Contact() {
   return (
     <div>

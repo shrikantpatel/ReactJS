@@ -13,17 +13,15 @@ function App() {
     txtTitle.current.value = "";
     hexColor.current.value = "";
   };
+
   return (
     <form onSubmit={submit}>
-      <input
-        ref={txtTitle}
-        type="text"
-        placeholder="color title..."
-      />
+      <input ref={txtTitle} type="text" placeholder="color title..." />
       <input ref={hexColor} type="color" />
       <button>ADD</button>
     </form>
   );
+  
 }
 
 export default App;
